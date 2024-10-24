@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""python function that insert document"""
+""" MongoDB Operations with Python using pymongo """
 
 
 def insert_school(mongo_collection, **kwargs):
-    """insert a new document"""
-    retuen mango_collection.insert(kwargs)
+    """ Inserts a new document in a collection based on kwargs """
+    return mongo_collection.insert(kwargs)
