@@ -1,11 +1,11 @@
-//update database
+// Update DB
 db.school.update(
- {name: "Helberton school" },
- {$set: {
-	address: "972 Mission street"
-	}, 
-	{
-		multi: true
-	}
-}
+    { name: "Holberton school" },
+    {$set: {
+            address: "972 Mission street"
+        }
+    },
+    {
+        multi: true
+    }
 )
